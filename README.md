@@ -38,3 +38,10 @@ npm run preview
 - Logo: `src/assets/logo.png`
 - Hero image (optional): `src/assets/hero.webp`  
   Replace it with your final illustration if needed.
+
+## Hosting notes (Netlify/Vercel/Cloudflare)
+
+- Recommended Node version: **20.x (LTS)** (this repo includes `.nvmrc`).
+- On Netlify: publish directory `dist`, build command `npm run build`.
+- If you see an npm internal error on Node 22, switch the build image/node version to 20.
+
