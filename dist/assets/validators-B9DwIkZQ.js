@@ -1,0 +1,1 @@
+import{r,T as e}from"./index-CLT7vRyf.js";function n(){const t=r.useContext(e);if(!t)throw new Error("useToast must be used within ToastProvider");return t}function i(t){return/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(t.trim())}function u(t){const s=t.trim();return s?/^[+()\d\s-]{7,}$/.test(s):!0}export{u as a,i,n as u};

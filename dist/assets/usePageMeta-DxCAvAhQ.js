@@ -1,0 +1,1 @@
+import{r as o}from"./index-CLT7vRyf.js";function a(e,t){o.useEffect(()=>{if(document.title=e,!t)return;const r=document.querySelector('meta[name="description"]');r&&r.setAttribute("content",t)},[e,t])}export{a as u};

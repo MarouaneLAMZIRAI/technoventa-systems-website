@@ -1,0 +1,1 @@
+import{j as s,c as r}from"./index-CLT7vRyf.js";function x({children:t,className:e,tone:n="neutral"}){const a={neutral:"bg-slate-100 text-slate-700",teal:"bg-brand-teal/10 text-brand-navy"}[n];return s.jsx("span",{className:r("inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium",a,e),children:t})}export{x as B};
