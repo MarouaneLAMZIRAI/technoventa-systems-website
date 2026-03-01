@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  /* Brand colors from TECHNOVENTA SYSTEMS logo */
+  --brand-teal: 57 170 182; /* #39AAB6 */
+  --brand-navy: 30 58 84;   /* #1E3A54 */
+}
+
+html:focus-within { scroll-behavior: smooth; }
+
+::selection{
+  background: rgb(var(--brand-teal) / 0.25);
+}
+
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
+
+a { text-underline-offset: 3px; }
